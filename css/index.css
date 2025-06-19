@@ -1,0 +1,107 @@
+@import url(style.css);
+
+.header-logo {
+  background-color: var(--primary-900);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 100vw;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-content > h1 {
+  color: white;
+  font-size: 56px;
+  font-family: josefin sans;
+}
+
+.hero-button {
+  color: var(--secondary-700);
+  border: solid 3px var(--primary-900);
+  font-weight: 700;
+  font-size: 20px;
+  width: 230px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  padding-top: 50px;
+  width: 80%;
+}
+
+.introduction > h2 {
+  font-family: josefin sans;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.introduction > p {
+  font-size: 16px;
+  color: var(--secondary-900);
+}
+
+.product-section {
+  padding-top: 50px;
+}
+
+.product-section > h2 {
+  font-family: josefin sans;
+}
+
+.product-article {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 500px;
+}
+
+.product-title {
+  font-family: josefin sans;
+  font-size: 40px;
+}
+
+.product-description {
+}
+
+.product-price {
+}
+
+.order-button {
+  color: var(--secondary-700);
+  background-color: var(--primary-900);
+  width: 180px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
