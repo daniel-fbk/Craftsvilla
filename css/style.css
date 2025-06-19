@@ -73,3 +73,27 @@ nav {
 .header-icon-box > img {
   width: 28px;
 }
+
+footer {
+  background-color: var(--primary-700);
+  color: var(--primary-900);
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+footer > section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 5em;
+}
+
+.footer-heading {
+  color: black;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}

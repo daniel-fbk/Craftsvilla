@@ -70,7 +70,7 @@
 }
 
 .product-article {
-  padding-top: 15px;
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
   gap: 50px;
@@ -79,8 +79,8 @@
 .product-info {
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  width: 500px;
+  padding: 100px 0 35px;
+  width: 45%;
 }
 
 .product-title {
@@ -89,9 +89,16 @@
 }
 
 .product-description {
+  padding: 15px 0 35px;
 }
 
 .product-price {
+  padding-bottom: 150px;
+}
+
+.price-includes {
+  font-size: 14px;
+  padding-top: 5px;
 }
 
 .order-button {
@@ -104,4 +111,34 @@
   align-items: center;
   font-weight: 700;
   font-size: 20px;
+}
+
+#location-section {
+  margin: 100px 0;
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+}
+
+.location-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.location-article > h2 {
+  font-size: 32px;
+}
+
+.location-article > p {
+  font-weight: 700;
+}
+
+.open-time {
+  font-weight: 400;
+}
+
+iframe {
+  width: 65vw;
 }
