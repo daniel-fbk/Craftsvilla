@@ -1,0 +1,45 @@
+@import url(style.css);
+
+.mosaic-section {
+  padding: 50px 0;
+  display: flex;
+  gap: 50px;
+}
+
+.mosaic-title {
+  font-family: josefin sans;
+  font-size: 48px;
+}
+
+.mosaic-info {
+  font-size: 20px;
+}
+
+.mosaic-info-list {
+  list-style: none;
+  padding: 0 0 150px;
+  line-height: 50px;
+}
+
+.mosaic-info > p {
+  padding: 15px 0;
+}
+
+.order-button {
+  color: var(--secondary-700);
+  background-color: var(--primary-900);
+  width: 180px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
