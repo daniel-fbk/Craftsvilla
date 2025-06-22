@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Craftsvilla</title>
 
-    <link rel="stylesheet" href="../css/gallery.css" />
+    <link rel="stylesheet" href="../css/booking.css" />
     <!-- FONT - Josefin Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,66 +27,100 @@
       <nav>
         <a class="nav-button" href="../index.html">Hjem</a>
         <a class="nav-button" href="../index.html#workshops">Verksteder</a>
-        <a class="nav-button" href="./html/booking.html">Booking</a>
-        <a class="nav-button" href="#">Galleri</a>
+        <a class="nav-button" href="#">Booking</a>
+        <a class="nav-button" href="../html/gallery.html">Galleri</a>
         <a class="nav-button" href="../index.html#location-section">Lokasjon</a>
         <a class="nav-button" href="#footer">Kontakt</a>
       </nav>
       <div class="icons-container">
         <a href="" class="header-icon-box">
-          <img src="../images/login-icon.svg" alt="" />
+          <img src="images/login-icon.svg" alt="" />
         </a>
         <a href="" class="header-icon-box">
-          <img src="../images/search-icon.svg" alt="" />
+          <img src="images/search-icon.svg" alt="" />
         </a>
         <a href="" class="header-icon-box">
-          <img src="../images/cart-icon.svg" alt="" />
+          <img src="images/cart-icon.svg" alt="" />
         </a>
       </div>
     </header>
     <main>
       <div class="main">
-        <article class="gallery-introduction">
-          <h1>Galleriet</h1>
-          <p>
-            "På en god utstilling vil du ofte høre noen si: ‘Jeg kan ikke tro at
-            et barn har laget dette!’ - noe som, ja, på et vis, viser at de er
-            imponert. Men det vi prøver å oppnå hos Craftsvilla er å vise at vi
-            ikke er bare imponerende fordi vi er barn, for ‘bra for å være et
-            barn’ er ikke bra nok for oss hos Craftsvilla... hos Craftsvilla er
-            forventningene så høye at listen heves for alle kunstnere, uansett
-            alder. Vi vet allerede at barn er i stand til å lage fantastisk
-            kunst, og vi ønsker å spre den selvtilliten i deres ferdigheter."
-          </p>
-        </article>
-        <section class="gallery">
-          <div class="image-box">
-            <img src="../images/mosaic01.png" alt="" />
-          </div>
-          <div class="image-box">
-            <img src="../images/mosaic02.png" alt="" />
-          </div>
-          <div class="image-box">
-            <img src="../images/mosaic03.png" alt="" />
-          </div>
-          <div class="image-box">
-            <img src="../images/canvas01.png" alt="" />
-          </div>
-          <div class="image-box">
-            <img src="../images/canvas02.png" alt="" />
-          </div>
-          <div class="image-box">
-            <img src="../images/canvas03.png" alt="" />
-          </div>
-          <div class="image-box">
-            <img src="../images/watercolor01.png" alt="" />
-          </div>
-          <div class="image-box">
-            <img src="../images/watercolor02.png" alt="" />
-          </div>
-          <div class="image-box">
-            <img src="../images/watercolor03.png" alt="" />
-          </div>
+        <h2>Bestill verksted</h2>
+        <section>
+          <form action="">
+            <div class="form-row">
+              <div class="form-box">
+                <label for="name">Fullt navn:</label>
+                <input
+                  type="text"
+                  name="Name"
+                  id="form-name"
+                  class="input-field"
+                />
+              </div>
+              <div class="form-box">
+                <label for="email">E-post:</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="form-email"
+                  class="input-field"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-box">
+                <label for="number">Telefonnummer:</label>
+                <input
+                  type="text"
+                  name="number"
+                  id="form-number"
+                  class="input-field"
+                />
+              </div>
+              <div class="form-box">
+                <label for="participants">Antall deltakere:</label>
+                <input
+                  type="text"
+                  name="participants"
+                  id="form-participants"
+                  class="input-field"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-box">
+                <label for="workshop">Velg verksted:</label>
+                <select name="workshop" id="form-workshop" class="input-field">
+                  <option value="mosaikk">Mosaikk</option>
+                  <option value="akvarell">Akvarell</option>
+                  <option value="lerret">Lerret</option>
+                </select>
+              </div>
+              <div class="form-box">
+                <label for="date">Dato og tid:</label>
+                <input
+                  type="datetime-local"
+                  name="date"
+                  id="form-date"
+                  class="input-field"
+                />
+              </div>
+            </div>
+            <div class="form-box">
+              <label for="other">Ønsker:</label>
+              <textarea
+                name="other"
+                id="form-other"
+                rows="6"
+                cols="50"
+                placeholder="Har du noen ønsker angående din bestilling?"
+              ></textarea>
+            </div>
+            <button type="submit">Send inn</button>
+          </form>
+          <img class="booking-image" src="../images/booking-image.png" alt="" />
         </section>
       </div>
     </main>
@@ -148,6 +182,13 @@
             <li>Ledaalsgata 1, 4008 Stavanger</li>
             <li>
               <a href="mailto:craftsvilla@gmail.com">craftsvilla@gmail.com</a>
+            </li>
+            <li>+47 918 273 645</li>
+            <br />
+            <li>
+              <b>Åpningstider:</b>
+              <br />
+              Mandag - Fredag: 11:00 - 18:00
             </li>
           </ul>
         </article>
