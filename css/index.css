@@ -43,6 +43,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.hero-button::after,
+.hero-button::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  transition: 0.5s;
+}
+
+.hero-button::after {
+  top: -3px;
+  left: -3px;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.hero-button::before {
+  bottom: -3px;
+  right: -3px;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+
+.hero-button:hover::after,
+.hero-button:hover::before {
+  width: 30px;
+  height: 30px;
+  border-color: var(--secondary-700);
 }
 
 .introduction {
@@ -110,10 +142,16 @@
   align-items: center;
   font-weight: 700;
   font-size: 20px;
+  transition: 500ms ease;
+}
+
+.order-button:hover {
+  color: var(--primary-700);
 }
 
 #location-section {
   margin: 50px 0 100px;
+  padding-top: 50px;
   display: flex;
   justify-content: end;
   gap: 50px;

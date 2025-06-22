@@ -19,6 +19,7 @@ section {
 
 .booking-image {
   width: 500px;
+  box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 form {
@@ -35,6 +36,15 @@ form {
   width: 30ch;
 }
 
+input {
+  transition: transform 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  transform: translateY(8px);
+}
+
 .form-row {
   display: flex;
   gap: 15px;
@@ -44,4 +54,30 @@ form {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+#extra {
+  width: 100%;
+}
+
+button {
+  color: var(--secondary-700);
+  background-color: var(--primary-900);
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 700ms ease;
+  border: none;
+  cursor: pointer;
+  transform-origin: top left;
+  align-self: center;
+  margin-top: 50px;
+}
+
+button:hover {
+  width: 180px;
 }

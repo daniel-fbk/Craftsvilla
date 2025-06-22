@@ -20,9 +20,6 @@ body {
   color: var(--primary-900);
 }
 
-/* max-width: 1728px;
-   width: calc(100vw - 64px); */
-
 .main {
   max-width: 80vw;
   margin-left: auto;
