@@ -25,6 +25,7 @@ body {
   max-width: 80vw;
   margin-left: auto;
   margin-right: auto;
+  padding: 50px 0;
 }
 
 a {
@@ -56,6 +57,11 @@ nav {
   align-items: center;
 }
 
+.nav-button:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
 .icons-container {
   justify-self: end;
   margin-right: 10px;
@@ -68,6 +74,10 @@ nav {
   height: 100%;
   display: flex;
   justify-content: center;
+}
+
+.header-icon-box:hover {
+  scale: 1.1;
 }
 
 .header-icon-box > img {
@@ -111,4 +121,8 @@ footer > section {
   display: flex;
   gap: 20px;
   padding-top: 10px;
+}
+
+.footer-socials-icons > a:hover {
+  scale: 1.1;
 }
