@@ -11,6 +11,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: roboto;
+  scroll-behavior: smooth;
+  scroll-margin-top: 60px;
 }
 
 body {
@@ -38,6 +40,9 @@ header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 9000;
 }
 
 nav {

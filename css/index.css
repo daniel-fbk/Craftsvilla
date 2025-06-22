@@ -141,3 +141,63 @@
 iframe {
   width: 65vw;
 }
+
+.reviews-section {
+  background-color: var(--primary-900);
+}
+
+/* .stars {
+  display: flex;
+  gap: 6px;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+  color: white;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  color: #fff;
+}
+
+.stars:hover .star {
+  color: #fff700;
+} */
+
+.reviews-section {
+  padding: 1rem;
+  margin-bottom: 100px;
+}
+
+.review-box {
+  height: 200px;
+  width: 375px;
+  background-color: var(--secondary-700);
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  border-radius: 1rem;
+}
+
+.review-image-crontainer {
+  margin-top: auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.review-image {
+  height: 55px;
+  width: 55px;
+}
+
+.review-image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
