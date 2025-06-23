@@ -34,17 +34,14 @@ section {
   section {
     scale: 1;
   }
+  .booking-image {
+    display: none;
+  }
 }
 
 .booking-image {
   width: 500px;
   box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 840px) {
-  .booking-image {
-    display: none;
-  }
 }
 
 form {
