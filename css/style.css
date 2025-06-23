@@ -71,6 +71,12 @@ nav {
   align-items: center;
 }
 
+@media (max-width: 1050px) {
+  .icons-container {
+    display: none;
+  }
+}
+
 .header-icon-box {
   width: 60px;
   height: 100%;
@@ -102,6 +108,12 @@ footer > section {
   justify-content: space-between;
   width: 80%;
   padding-top: 5em;
+}
+
+@media (max-width: 900px) {
+  footer > section {
+    width: 90%;
+  }
 }
 
 .footer-heading {

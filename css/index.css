@@ -27,10 +27,28 @@
   gap: 30px;
 }
 
+@media (max-width: 1250px) {
+  .hero-content {
+    bottom: 50px;
+  }
+}
+
 .hero-content > h1 {
   color: white;
   font-size: 56px;
   font-family: josefin sans;
+}
+
+@media (max-width: 1250px) {
+  .hero-content > h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-content > h1 {
+    font-size: 30px;
+  }
 }
 
 .hero-button {
@@ -45,6 +63,18 @@
   align-items: center;
   position: relative;
   transition: color 0.3s ease;
+}
+
+@media (max-width: 1250px) {
+  .hero-button {
+    scale: 0.8;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-button {
+    scale: 0.6;
+  }
 }
 
 .hero-button::after,
@@ -85,6 +115,7 @@
   font-family: josefin sans;
   padding-bottom: 15px;
   font-size: 30px;
+  white-space: nowrap;
 }
 
 .introduction > p {
@@ -150,7 +181,7 @@
 }
 
 #location-section {
-  margin: 50px 0 100px;
+  margin: 50px 0 100px 20px;
   padding-top: 50px;
   display: flex;
   justify-content: end;
@@ -166,6 +197,7 @@
 
 .location-article > h2 {
   font-size: 32px;
+  white-space: nowrap;
 }
 
 .location-article > p {
@@ -182,7 +214,7 @@ iframe {
 
 .reviews-section {
   background-color: var(--primary-900);
-  padding: 1rem;
+  padding: 3rem 1.2rem;
   margin-bottom: 200px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -209,7 +241,6 @@ iframe {
 }
 
 .review-box {
-  background-color: var(--secondary-700);
   display: flex;
   flex-direction: column;
   gap: 50px;
