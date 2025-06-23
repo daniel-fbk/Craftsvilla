@@ -14,12 +14,37 @@ h2 {
 
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
+}
+
+@media (max-width: 1030px) {
+  section {
+    scale: 0.9;
+  }
+}
+
+@media (max-width: 950px) {
+  section {
+    scale: 0.8;
+  }
+}
+
+@media (max-width: 840px) {
+  section {
+    scale: 1;
+  }
 }
 
 .booking-image {
   width: 500px;
   box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 840px) {
+  .booking-image {
+    display: none;
+  }
 }
 
 form {

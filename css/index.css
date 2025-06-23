@@ -30,6 +30,13 @@
 @media (max-width: 1250px) {
   .hero-content {
     bottom: 50px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-content {
+    gap: 0px;
   }
 }
 
