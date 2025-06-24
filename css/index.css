@@ -125,6 +125,13 @@
   white-space: nowrap;
 }
 
+@media (max-width: 755px) {
+  .introduction > h2 {
+    white-space: wrap;
+    text-wrap: balance;
+  }
+}
+
 .introduction > p {
   font-size: 16px;
   color: var(--secondary-900);
@@ -143,6 +150,22 @@
   display: flex;
   flex-direction: row;
   gap: 50px;
+}
+
+@media (max-width: 755px) {
+  .product-article {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 755px) {
+  .product-article img {
+    scale: 0.6;
+  }
 }
 
 .product-info {
