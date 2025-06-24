@@ -47,13 +47,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  justify-self: center;
-  align-self: center;
+  justify-content: center;
+  align-items: center;
   background: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
+  scale: 1.3;
 }
 
 .lightbox:target {
-  display: block;
+  display: flex;
 }
