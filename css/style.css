@@ -7,6 +7,10 @@
   --secondary-900: #919184;
 }
 
+/* * {
+  outline: solid 1px red;
+} */
+
 * {
   margin: 0;
   box-sizing: border-box;
